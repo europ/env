@@ -1,0 +1,27 @@
+# custom gitignore patterns
+
+home
+docker-compose.override.yml
+
+
+# terraform gitignore patterns
+# https://github.com/github/gitignore/blob/main/Terraform.gitignore
+
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+crash.*.log
+
+*.tfvars
+*.tfvars.json
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.terraformrc
+terraform.rc

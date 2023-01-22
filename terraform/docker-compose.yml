@@ -1,0 +1,11 @@
+services:
+  terraform:
+    image: terraform
+    build:
+      context: .
+    environment:
+      PS1: '[\u@\h \W]\\$$ '
+    volumes:
+      - ./home:/home/terraform
+      - .:/mnt/terraform
+    working_dir: /mnt/terraform
