@@ -1,0 +1,4 @@
+---
+collections:
+  - name: oracle.oci
+  - name: kubernetes.core

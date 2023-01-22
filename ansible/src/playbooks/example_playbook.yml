@@ -1,0 +1,5 @@
+---
+- name: Example Play
+  hosts: all
+  roles:
+    - role: "../roles/example_role"

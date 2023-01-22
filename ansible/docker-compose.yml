@@ -1,0 +1,12 @@
+services:
+  ansible:
+    image: ansible
+    build:
+      context: .
+    environment:
+      PS1: '[\u@\h \W]\\$$ '
+      ANSIBLE_STDOUT_CALLBACK: debug
+    volumes:
+      - ./home:/home/ansible
+      - .:/mnt/ansible
+    working_dir: /mnt/ansible

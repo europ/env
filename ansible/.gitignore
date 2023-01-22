@@ -1,0 +1,10 @@
+# custom gitignore patterns
+
+home
+docker-compose.override.yml
+
+
+# ansible gitignore patterns
+# https://github.com/github/gitignore/blob/main/Global/Ansible.gitignore
+
+*.retry
