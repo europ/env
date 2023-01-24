@@ -3,12 +3,12 @@
 ## Setup
 
 1. Prerequisites
-  1. GNU make
-  1. docker compose
+    1. GNU make
+    1. docker compose
 1. Configuration
-  1. Add all the OCI, AWS, and custom user configuration inside the `./home` directory, which is mounted as a home directory of the non root user inside the container. The content of `./home` directory is ignored by GIT. Avoid region definition in your OCI configuration.
-  1. Add an empty file `.bash_history` to the `./home` directory if you want to have persistent history for Terraform only.
-  1. More configuration customization are defined in [Customization](#customization) section
+    1. Add all the OCI, AWS, and custom user configuration inside the `./home` directory, which is mounted as a home directory of the non root user inside the container. The content of `./home` directory is ignored by GIT. Avoid region definition in your OCI configuration.
+    1. Add an empty file `.bash_history` to the `./home` directory if you want to have persistent history for Terraform only.
+    1. More configuration customization are defined in [Customization](#customization) section
 
 ### Customization
 
